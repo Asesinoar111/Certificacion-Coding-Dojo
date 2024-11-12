@@ -1,12 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Certificacion Coding Dojo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    
+    <nav class="nav">
+        <section class="nav-section-1">
+            <div class="nav-container-title">
+                <img src="img/heart-light.png" alt="hearth" />
+                <h2 class="nav-h2">Pet Shelter</h2>
+            </div>
+            <ul class="nav-ul1">
+                <li class="nav-ul1-li">Find a Pet</li>
+                <li class="nav-ul1-li">About</li>
+                <li class="nav-ul1-li" id="btn-donate">Donate</li>
+            </ul>
+        </section>
+        <section class="nav-section-2">
+            <div class="nav-container-input">
+                <p class="nav-p">I'm looking for a...</p>
+                <div class="nav-input">
+                    <img src="img/paw-light.png" alt="paw-light" />
+                    <select name="paw" id="select-paw">
+                        <option value="anyPet">Any Pet</option>
+                        <option value="cat">Cat</option>
+                        <option value="dog">Dog</option>
+                    </select>
+                </div>
+            </div>
+            <div class="nav-container-input">
+                <p class="nav-p">In or near</p>
+                <div class="nav-input">
+                    <img src="img/pin-light.png" alt="ping" />
+                    <input type="text" name="input-near" id="input-near" placeholder="City or Zip Code">
+                </div>
+            </div>
+            <button class="nav-btn">Find my new best friend</button>
+        </section>
+    </nav>
+    <main class="main">
+        <div class="pet-card">
+            <figure class="pet-card-figure">
+                <img src="img/pepper.jpg" alt="pepper">
+            </figure>
+            <figcaption class="pet-card-figcaption">
+                <div class="pet-card-info">
+                    <h3 class="pet-name">Pepper</h3>
+                    <p class="pet-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloribus quae magni id obcaecati beatae repudiandae animi exercitationem veritatis est!</p>
+                </div>
+                <div class="pet-card-extra">
+                    <p><span class="pet-card-span">0</span> petting(s)</p>
+                    <button class="pet-card-btn">Pet Pepper</button>
+                </div>
+            </figcaption>
+        </div>
+        <div class="pet-card">
+            <figure class="pet-card-figure">
+                <img src="img/bruce.jpg" alt="bruce">
+            </figure>
+            <figcaption class="pet-card-figcaption">
+                <div class="pet-card-info">
+                    <h3 class="pet-name">Bruce</h3>
+                    <p class="pet-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloribus quae magni id obcaecati beatae repudiandae animi exercitationem veritatis est!</p>
+                </div>
+                <div class="pet-card-extra">
+                    <p><span class="pet-card-span">0</span> petting(s)</p>
+                    <button class="pet-card-btn">Pet Bruce</button>
+                </div>
+            </figcaption>
+        </div>
+        <div class="pet-card">
+            <figure class="pet-card-figure">
+                <img src="img/oscar.jpg" alt="Oscar">
+            </figure>
+            <figcaption class="pet-card-figcaption">
+                <div class="pet-card-info">
+                    <h3 class="pet-name">Oscar</h3>
+                    <p class="pet-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero doloribus quae magni id obcaecati beatae repudiandae animi exercitationem veritatis est!</p>
+                </div>
+                <div class="pet-card-extra">
+                    <p><span class="pet-card-span">0</span> petting(s)</p>
+                    <button class="pet-card-btn">Pet Oscar</button>
+                </div>
+            </figcaption>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+:root{
+    --C1: #f2f2f2;
+    --C2: #020202;
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    color: var(--C1);
+    padding: 2rem;
+    gap: 2rem;
+}
+
+.nav section{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.nav-section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-container-title{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.nav-ul1{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav-ul1-li{
+    cursor: pointer;
+}
+
+#btn-donate{
+    padding: 10px 20px;
+    background-color: var(--C2);
+    color: var(--C1);
+    border-radius: 10px;
+}
+
+.nav-section-2{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-container-input{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.nav-p{
+    font-weight: 500;
+}
+
+.nav-btn{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--C1);
+    color: var(--C2);
+    cursor: pointer;
+}
+
+.nav-input{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.nav-input img{
+    width: 40px;
+    aspect-ratio: 1/1;
+}
+
+#select-paw{
+    width: 95%;
+    height: 40px;
+    padding: 0 5%;
+    border: none;
+    border-radius: 10px;
+}
+
+.nav-input input{
+    width: 95%;
+    padding: 0 5%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.main{
+    width: 75%;
+    padding: 5%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.pet-card{
+    display: flex;
+    padding: 3%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    gap: 3%;
+}
+
+.pet-card-figure{
+    width: 40%;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.pet-card-figure img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.pet-card-figcaption{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.pet-card-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;  
+    width: 60%;
+}
+
+.pet-name{
+    font-size: 2rem;
+    color: var(--C2);
+    font-weight: 500;
+}
+
+.pet-description{
+    font-size: 1rem;
+    color: var(--C2);
+    font-weight: normal;
+}
+
+.pet-card-extra{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
